@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoVidal1</name>
+    </assembly>
+    <members>
+        <member name="T:DemoVidal1.Controllers.BuscarInformacionController">
+            <summary>
+            Controlador que realiza búsquedas en diferentes APIs y devuelve los resultados ordenados.
+            </summary>
+        </member>
+        <member name="M:DemoVidal1.Controllers.BuscarInformacionController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary>
+            Constructor que recibe una fábrica de clientes HTTP.
+            </summary>
+            <param name="clientFactory">Fábrica de clientes HTTP.</param>
+        </member>
+        <member name="M:DemoVidal1.Controllers.BuscarInformacionController.Search(System.String)">
+            <summary>
+            Realiza la búsqueda en diferentes APIs y devuelve los resultados ordenados por nombre.
+            </summary>
+            <param name="Busquedaparametro">El término de búsqueda a consultar en las APIs.</param>
+            <returns>Una lista de resultados de la búsqueda ordenada por nombre.</returns>
+        </member>
+        <member name="M:DemoVidal1.Controllers.BuscarInformacionController.BusquedaItunes(System.String)">
+            <summary>
+            Realiza una búsqueda en la API de iTunes y devuelve los resultados.
+            </summary>
+            <param name="Busquedaparametro">El término de búsqueda a consultar en iTunes.</param>
+            <returns>Una lista de resultados de la búsqueda en iTunes.</returns>
+        </member>
+        <member name="M:DemoVidal1.Controllers.BuscarInformacionController.BusquedaTVMaze(System.String)">
+            <summary>
+            Realiza una búsqueda en la API de TVMaze y devuelve los resultados.
+            </summary>
+            <param name="Busquedaparametro">El término de búsqueda a consultar en TVMaze.</param>
+            <returns>Una lista de resultados de la búsqueda en TVMaze.</returns>
+        </member>
+        <member name="M:DemoVidal1.Controllers.BuscarInformacionController.BusquedaPersonas(System.String)">
+            <summary>
+            Realiza una búsqueda en la API de Personas y devuelve los resultados.
+            </summary>
+            <param name="Busquedaparametro">El término de búsqueda a consultar en Personas.</param>
+            <returns>Una lista de resultados de la búsqueda en Personas.</returns>
+        </member>
+    </members>
+</doc>

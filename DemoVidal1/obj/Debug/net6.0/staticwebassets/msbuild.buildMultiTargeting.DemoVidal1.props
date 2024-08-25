@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DemoVidal1.props" />
+</Project>
